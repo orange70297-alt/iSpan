@@ -13,6 +13,8 @@ user_input = int(user_input)
 print(type(user_input))
 if user_input >10:
     print("user_input 大於 10")
+elif user_input <3:
+    print("user_input小於3")
 
 
 
