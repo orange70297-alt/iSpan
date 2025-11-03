@@ -2,8 +2,11 @@
 ans = 25
 while True:
 # 告訴使用者需要輸入的數字範圍 input()
-    user_input = int(input ("請輸入數字1~100: "))
-
+    try:
+        user_input = int(input ("請輸入數字1~100: "))
+    except Exception as e:
+        print("請輸入數字")
+        continue
 # 超出範圍要顯示「超出範圍請重新輸入」
     if user_input <1 or user_input >100:
         print("超出範圍請重新輸入")
