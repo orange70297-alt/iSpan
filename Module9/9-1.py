@@ -3,3 +3,5 @@ import myModule
 
 answer = myModule.get_discount(10000, 200)
 print(f"9-1.py: {answer}元")
+
+# 測試method 使用# 測試method 使用# 測試method 使用# 測試method 使用# 測試method 使用# 測試method 使用# 測試method 使用

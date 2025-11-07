@@ -3,6 +3,8 @@ def get_discount(total,discount):
         total -= discount* (total//2000)
     return total
 
+# print(__name__)
+
 # 測試模組
 if __name__ == "__main__":
     data = [
@@ -19,4 +21,4 @@ if __name__ == "__main__":
 
     for d in data:
         answer = get_discount(d["total"], d["discount"])
-        print(f"折扣後的金額: {answer} 元")
+        print(f"折扣後的金額: {answer} 元") 

@@ -4,7 +4,7 @@ def get_discount(total, discount):
 
     return total
 
-# print(__name__)
+print(__name__)
 
 if __name__ == "__main__":
     # 測試模組
